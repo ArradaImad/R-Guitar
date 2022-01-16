@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+.color-light-gray {
+    color :#f2f2f2;
+}
+
+.bg-light-gray {
+    background-color: #f2f2f2;
+}
+
+.color-red {
+    color: #b1494a;
+}
+
+.bg-red {
+    background-color: #b1494a !important;
+}
+
+.border-red {
+    border-color: #b1494a !important;
+}
+
+.border-8 {
+    border-width: 8px !important;
+}
+
+.text-spaced {
+    letter-spacing: 2px;
+}
+
+.text-spaced-lg {
+    letter-spacing: 4px;
+}
+
+.color-gray {
+    color: #7a7a7a;
+}
+
+#logo {
+    height: 3rem;
+    position: absolute;
+}
+
+.title-xl {
+    font-size: 3.5rem;
+}
+
+.title-lg {
+    font-size: 3rem;
+}
+
+.title-md {
+    font-size: 2.5rem;
+}
+
+.title-sm {
+    font-size: 2rem;
+}
+
+.title-xs {
+    font-size: 1.5rem;
+}
+
+.title-2xs {
+    font-size: 1rem;
+}
+
+.title-3xs {
+    font-size: 0.75rem;
+}
+
+#title-wrapper {
+    top: 20%; 
+    left: 0%;
+}
+
+#hack-bar {
+    height: 6px; 
+    width: 100px; 
+}
+
+.h-16 {
+    height: 4rem;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.spirit-hack-bar {
+    display: flex;
+    flex-grow: 1;
+    height: 6px;
+}
+
+.leading-8 {
+    line-height: 2rem;
+}
+
+.leading-12 {
+    line-height: 3rem;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.nos-grattes-intro-blocks {
+    max-width: 80%;
+}
+
+#form-contact {
+    max-width: 90%;
+}
+
+@media screen and (min-width: 640px) {
+    #logo {
+        height: 4rem;
+    }
+
+    #title-wrapper {
+        top: 50%; 
+        left: 0%;
+    }
+
+    .nos-grattes-intro-blocks {
+        max-width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #title-wrapper {
+        top: 60%; 
+        left: 20%;
+    }
+
+    .nos-grattes-intro-blocks {
+        max-width: 50%;
+    }
+
+    #form-contact {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #logo {
+        position: relative;
+    }
+
+    #title-wrapper {
+        top: 70%; 
+        left: 40%;
+    }
+
+    #navbarSupportedContent > div {
+        align-items: center !important;
+    }
+
+    #nav-main {
+        justify-content: space-between !important;
+    }
+
+    .nav-item {
+        min-width: 180px !important;
+    }
+
+    #navbarSupportedContent {
+        justify-content: end;
+    }
+
+    #hack-bar {
+        height: 6px; 
+        width: 180px; 
+    }
+
+    .nos-grattes-intro-blocks {
+        max-width: 40%;
+    }
+
+    #form-contact {
+        max-width: 75%;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    #form-contact {
+        max-width: 60%;
+    }
+}
